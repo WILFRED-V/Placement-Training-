@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        long b = Math.round(Math.floor(a));
+        long c = Math.round(Math.ceil(a));
+        // long d = Math.round(Math.floor(a));
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(b);
+
+    }
+}
